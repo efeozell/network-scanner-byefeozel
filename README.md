@@ -1,4 +1,19 @@
-# Network Scanner By Efe Ozel
+# Network Scanner
+
+A small ARP-based network scanner written in Python with Scapy. It sends ARP requests to an IP range and lists the devices that answer, with their IP and MAC addresses.
+
+> Use it only on networks you own or are authorized to scan.
+
+**Quick start**
+
+```bash
+pip install scapy
+sudo python3 netscanner.py -i 192.168.1.0/24
+```
+
+The rest of this README explains how it works.
+
+---
 
 First i have to choose which protocol to use
 
@@ -110,5 +125,3 @@ Line 5 - Show output
 ## Full Package Flow
 
 ![image.png](image%205.png)
-
-Efe Ozel - SOC Analyst
